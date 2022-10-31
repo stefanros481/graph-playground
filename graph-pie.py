@@ -26,4 +26,4 @@ fig.update_traces(
 #                  marker=dict(line=dict(color='#000000', width=2)))
 
 fig.write_image("images/pie.png")
-fig.show()
+# fig.show()
