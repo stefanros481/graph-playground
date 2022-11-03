@@ -1,6 +1,6 @@
 name,country,type,value
-zero,Norway,stocks,868078
-ask,Norway,stocks,12283
+zero,Norway,equity,868078
+ASK,Norway,equity,12283
 degiro,Greece,stocks,14257
 avanza,Sweden,stocks,439225
 gjensidige,Norway,pension,280068

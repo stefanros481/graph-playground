@@ -3,8 +3,15 @@ import plotly.express as px
 # colors = ['gold', 'mediumturquoise', 'darkorange', 'lightgreen']
 # df = px.data.tips()
 
-labels = ["Zero", "Avanza", "Gjensidige"]
-values = [1005000, 480000, 250000]
+labels  = [
+    "Gjensidige",
+    "NordnetPension",
+    "Zero",
+    "ASK",
+    "Avanza",
+    "DeGiro",
+	]
+values = [332812, 223045, 868078, 12283, 439225, 14257]
 
 fig = px.pie(
     labels=labels,
@@ -27,3 +34,4 @@ fig.update_traces(
 
 fig.write_image("images/pie.png")
 # fig.show()
+ 
